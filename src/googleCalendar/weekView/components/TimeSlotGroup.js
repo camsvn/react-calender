@@ -8,7 +8,7 @@ function TimeSlotGroup (props) {
   const formattedTime = moment ().set ('hours', props.time).format ('h a');
   return (
     <Row type="flex" key={props.time} style={row}>
-      <Col style={timeCol} span={3}>
+      <Col style={timeCol} span={1}>
         <span style={timeString}>
           {formattedTime}
         </span>

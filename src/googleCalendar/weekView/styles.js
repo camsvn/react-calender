@@ -1,5 +1,8 @@
 export const col = {
   border: '#e0e0e0 1px solid',
+  marginTop: 15,
+  marginBottom: 3,
+  marginRight: 12
 };
 export const weekDays = {
   height: 100,
@@ -14,7 +17,7 @@ export const weekDayName = {
 };
 
 export const container = {
-  paddingRight: '10em',
+  paddingRight: '3em',
   paddingTop: '2em',
   paddingBottom: '2em',
 };
@@ -38,9 +41,9 @@ export const timeCol = {
 };
 
 export const timeString = {
-  position: 'absolute',
-  right: 8,
-  top: -8,
+  position: 'relative',
+  // right: 8,
+  top: '50%',
 };
 
 export const row = {
@@ -76,6 +79,7 @@ export const spacify = {
 export const inputStyles = {
   marginTop: 25,
   marginBottom: 15,
+  color: "black"
 };
 
 export const weekButtons = {

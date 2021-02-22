@@ -8,4 +8,18 @@ body {
 
 .anticon.anticon-cross-circle.ant-calendar-picker-clear {
   display: none;
+
+  
+}
+
+.ant-col-1{
+  width: 6.167%;
+}
+
+.ant-col-offset-1 {
+  margin-left: 6.167%;
+}
+
+.ant-col-offset-9 {
+  margin-left: 38.5%;
 }

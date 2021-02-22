@@ -12,7 +12,7 @@ import {isTodaysDate} from '../../utils';
 function WeekHeader (props) {
   return (
     <Row type="flex">
-      <Col span={3} />
+      <Col span={1} />
       {props.weekDays.map (day => (
         <Col
           key={day.dateStamp}

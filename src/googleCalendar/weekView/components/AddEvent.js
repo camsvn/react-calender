@@ -10,14 +10,33 @@ function AddEvent (props) {
     <React.Fragment>
       <Input
         type="text"
-        placeholder="Add Title"
-        value={props.title}
+        placeholder="First Name"
+        // value={props.title}
+        style={inputStyles}
+        size="large"
+        autoFocus={true}
+        onKeyDown={props.onTitleChange}
+        onChange={props.onTitleChange}
+      />
+      <Input
+        type="text"
+        placeholder="Last Name"
+        // value={props.title}
         style={inputStyles}
         size="large"
         autoFocus={true}
         onChange={props.onTitleChange}
       />
-      <RangePicker
+      <Input
+        type="number"
+        placeholder="Phone"
+        // value={props.title}
+        style={inputStyles}
+        size="large"
+        autoFocus={true}
+        onChange={props.onTitleChange}
+      />
+      {/* <RangePicker
         style={{width: '100%'}}
         value={[moment (props.start), moment (props.end)]}
         onChange={props.onTimeChange}
@@ -28,7 +47,7 @@ function AddEvent (props) {
           defaultValue: [moment (props.start), moment (props.end)],
         }}
         format="MMM Do, YYYY hh:mm a"
-      />
+      /> */}
     </React.Fragment>
   );
 }

@@ -4,7 +4,9 @@ import AddEvent from './AddEvent';
 
 class AddEventModal extends Component {
   state = {
-    title: '',
+    fname: '',
+    lname: '',
+    phone: '',
   };
 
   /**
@@ -28,6 +30,7 @@ class AddEventModal extends Component {
    * @param {event} event - JS/React event
    */
   handleTitleChange = event => {
+    console.log(event.key);
     this.setState ({
       title: event.target.value,
     });
