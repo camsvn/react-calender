@@ -33,3 +33,7 @@ This demo does not support **event** but **meetings** fully supported.
 ## Contributing
 
 In case of bug or feature request, feel free to file an issue.
+
+## ReferenceImage
+
+![alt text](https://github.com/camsvn/react-calender/blob/master/public/calender.png?raw=true)
